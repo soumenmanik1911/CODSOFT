@@ -1,0 +1,372 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url() no-repeat center center fixed;
+    background-size: cover;
+    overflow-y: sc;
+  
+    position: relative;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Stylish&display=swap');
+ 
+.first{
+    background-color: #673ab7;
+    position: relative;
+    border: 1px solidblack  ;
+}
+header {
+    
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #8e44ad;
+}
+h1{
+    color: rgb(248, 243, 243);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+.button {
+    background-color:#330b44;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main{
+    background-color: #330b44;
+}
+#blink{
+    font-size: 3rem;
+}
+.box{
+    width: 100vw;
+    height: 20vw;
+    
+   
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+    bottom: 60px;
+    font-size: 23px;
+}
+
+
+.about, .skills, .projects, .resume, .contact, footer {
+    padding: 20px 0;
+    text-align: center;
+   color: #ddd;
+   
+    border-radius: 10px;
+}
+.about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.container3{
+    position: relative;
+    bottom: 141px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.ml10 {
+    position: relative;
+    font-weight: 500;
+    font-size: 4em;
+  }
+  
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+  
+h2{
+    padding: 0;
+}
+
+.skills ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li, .projects li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+   
+    color: white;
+    border-radius: 10px;
+}
+
+.container4{
+    position: relative;
+    bottom: 200px;
+}
+.projects img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.container5{
+    position: relative;
+    bottom: 270px;
+}
+.resume a {
+    text-decoration: none;
+    color: #4CAF50;
+    border: 1px solid #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.resume a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.container6 {
+    display: flex;
+    gap: 50px;
+    font-family: sans-serif;
+            background-color:#C9C7EC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            margin: 0;
+            position: relative;
+            bottom: 126px;
+}
+
+.content {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* h1 {
+    font-size: 3em;
+    margin-bottom: 5px;
+    color:white;
+} */
+
+.ml11 {
+    font-weight: 700;
+    font-size: 3.5em;
+  }
+  
+  .ml11 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+   
+  }
+  
+  .ml11 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #ffffff;
+    transform-origin: 0 50%;
+  }
+  
+  .ml11 .line1 { 
+    top: 0; 
+    left: 0;
+  }
+  
+  .ml11 .letter {
+    display: inline-block;
+    line-height: 0.3em;
+  }
+
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 80px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #120d48;
+    color: white;
+    cursor: pointer;
+}
+.buttons :hover{
+    background-color: #5047B5;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 29px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+   height: 250px;
+   position: relative;
+   top: 50px ;
+}
+
+.form input, .form textarea {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.submit {
+    background-color: #5047B5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 55px;
+}
+    
+.box2{
+    background-color: #e1ebed;
+    position: relative;
+    bottom: 130px;
+}
+.box2 h1 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 20px 0 40px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .media {
+    display: flex;
+    background: #e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+  }
+  
+  .media i {
+    font-size: 50px;
+    color: #777;
+    transition: transform 0.5s;
+  }
+  
+  .media:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+      0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translateY(2px);
+  }
+  
+  .media:hover i {
+    transform: scale(0.9);
+  }
+  
+  .fa-facebook:hover  {
+    color: #3b5998;
+  }
+  
+  .fa-twitter:hover  {
+    color: #00acee;
+  }
+  
+  .fa-github:hover  {
+    color: #000000;
+  }
+  
+  .fa-instagram:hover  {
+    color: #f14843;
+  }
+  
+  .fa-linkedin-in:hover  {
+    color: #3b5998;
+  }
+  .container7{
+      padding: 10px 0;
+    color: rgb(25, 18, 18);
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    position: relative;
+    left: 590px;
+  
+  }
+  
